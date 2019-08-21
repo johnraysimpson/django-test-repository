@@ -28,6 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'), os.environ.get('HOST_NAME')]
 
+
 host = os.environ.get('SITE_HOST')
 if host:
     ALLOWED_HOST.append(host)
